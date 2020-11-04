@@ -1,11 +1,12 @@
+import { Component, template, define } from '../import.js';
 import html from '../templates/time.js';
 
-export class Time extends quantum.Component {
+export class Time extends Component {
     constructor() {
         super();
     }
 
-    static template = quantum.template(html);
+    static template = template(html);
 }
 
-quantum.define('quantum-time', Time);
+define('quantum-time', Time);

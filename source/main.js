@@ -1,3 +1,3 @@
-import * as time from './elements/time.js';
+import { Time } from './elements/time.js';
 
-Object.assign(quantum, time);
+Quantum.Time = Time;

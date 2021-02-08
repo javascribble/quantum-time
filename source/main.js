@@ -1,3 +1,1 @@
-import { Time } from './elements/time.js';
-
-Quantum.Time = Time;
+import './elements/time.js';
